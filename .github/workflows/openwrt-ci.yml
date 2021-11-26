@@ -8,11 +8,11 @@
 name: test
 
 on:
-  schedule:
+  #schedule:
     - cron: 0 20 * * *
-  push:
-    branches:
-      - master
+ # push:
+ #   branches:
+ #     - master
   release:
     types: [published]
 
